@@ -45,9 +45,6 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Test unit
-        run: yarntest:unit
-
       - name: Build page
         run: yarn build
         env:
